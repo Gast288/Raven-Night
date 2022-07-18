@@ -1,0 +1,280 @@
+
+.fondo{
+	background:palegoldenrod ;
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	margin-top: 30px;
+	padding: 30px;
+	cursor: url(cuervo.png),auto;
+}
+.fondo2{
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	margin-top: 30px;
+	background:palegoldenrod ;
+	padding: 30px;
+	cursor: url(cuervo.png),auto;
+}
+.fondo3{
+	background:goldenrod ;
+	border-radius: 80px;
+	color: palegoldenrod;
+	margin: 30px;
+}
+.fondo4{
+	background: goldenrod;
+	border-radius: 80px;
+	color:palegoldenrod ;
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 30px;
+	border: 3px solid black;
+	box-shadow: 10px 50px 88px 0 goldenrod;
+}
+.fondo5 {
+	background: palegoldenrod;
+	padding: 30px;
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	margin-top: 30px;
+	cursor: url(cuervo.png),auto;
+}
+h1{
+	color: palegoldenrod;
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 3;
+	font-family: fantasy;
+	background: goldenrod;
+	border-radius: 100px;
+	border-color: palegoldenrod;
+	margin: 30px;
+	border: 3px solid black;
+	box-shadow: 20px 50px 88px 0 goldenrod;
+	text-shadow: 0px 15px 20px palegoldenrod;
+	text-decoration: underline;
+}
+h1 span{
+	color: palegoldenrod;
+	box-sizing: border-box;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 3;
+	font-family: fantasy;
+	background: goldenrod;
+	border: 20px black ;
+	border-color: palegoldenrod;
+	border-radius: 100px;
+
+}
+h2{
+	color: goldenrod;
+	font-size:2em ;
+	font-weight: 300;
+	font-family: fantasy;
+	text-decoration: underline;
+
+}
+.text1{
+	font-size: 1.4em;
+}
+.g1{
+	color: goldenrod;
+}
+.g2{
+	color: goldenrod;
+}
+.color1{
+	color: black;
+	font-size: 10pt;
+}
+.color11{
+	color: black;
+	font-size: 12pt;
+}
+.g3{
+	font-size: 1.2em;
+}
+
+.irishred {
+	font-weight: 700;
+	font-size: 1.4em;
+	color: goldenrod;
+}
+.goldenale {
+	font-weight: 700;
+	font-size: 1.4em;
+	color: goldenrod;
+}
+.phantom{
+	position: fixed;
+	margin: 0px;
+	margin-top: -57px;
+	opacity: 0.6;
+	box-sizing: content-box;
+	font-size: 23px;
+
+}
+
+
+.p1{
+	display: inline;
+	padding-right: 10px;
+	transition: background 0.5s,height 0.5s, width 0.5s,margin 1s;
+	color: salmon;
+	
+
+   
+}
+.p1:hover{
+	background: goldenrod;
+	height: 400px;
+	width: 400px;
+	margin: 10px;
+	border: 3px solid black;
+}
+.p2{
+	display: inline;
+	padding-right: 10px;
+	transition: background 0.5s,height 0.5s, width 0.5s, margin 1s;
+	color: salmon;
+}
+.p2:hover{
+	background: goldenrod;
+	height: 400px;
+	width: 400px;
+	border: 3px solid black;
+	margin: 10px;
+}
+
+.p3{ display: inline;
+	transition: background 0.5s,height 0.5s, width 0.5s, margin 1s;
+	color: salmon;
+ }
+.p3:hover{
+	background: goldenrod;
+	height: 400px;
+	width: 400px;
+	border: 3px solid black;
+	margin: 10px;
+}
+
+.phantom1{
+	position: fixed;
+	text-align: justify;
+	margin-top: -80px;
+	opacity: 0.6;
+	padding-left: 600px;
+	padding-top: -10px;
+	display: table;
+
+	
+}
+.phantom3{
+	background: goldenrod;
+	text-align: left;
+}
+
+.img1{
+	float: right;
+	margin-right:50px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+object-fit: cover;
+	height: 200px;
+	width: 250px;
+	border-radius: 40px;
+	border: 3px solid darksalmon;
+	animation: img1 5s alternate infinite;
+	
+
+
+}
+	@keyframes img1 { 
+		0% {transform: translate(50px);
+			filter: none;}
+		40% { filter: sepia(30%);
+
+		 }
+		 80%{filter: sepia(59%);
+
+		 }
+
+}
+.text2 { width: 100%; 
+text-align: justify;
+}
+
+.enviar{
+	
+	font-size: 16px;
+	border: 2px solid black;
+padding-right: 3px;
+padding-left: 3px;
+transition: all 0.8s,margin 1.2s;
+background: darkgoldenrod;
+color: black;
+font-weight: 1000;
+
+}
+.enviar:hover {
+	margin right: 6px;
+	color: black;
+	background: palegoldenrod;
+	width: 70px;
+}
+
+.scioli1{
+	border: 5px solid black;
+	height: 280px;
+	width: 500px;
+	transition: all 2s;
+}
+.scioli1:hover {
+	height: 400px;
+	width: 700px;
+	box-shadow: 39px 39px 0 0 black;
+}
+	.P1{font-size: 32px;
+		text-decoration: underline;
+
+}
+	.P2 {font-size: 20px;
+		color: darkgoldenrod;
+		padding-left: 140px;
+		padding-bottom: 20px;
+		font-weight: 350;
+		font-family: fantasy;
+		text-decoration: underline;
+
+}
+@media only screen and (max-widht: 300;
+
+.phamtom {
+	padding-left: 300px;
+}
+
+.p1 { 
+display: none;
+width: 100%; }
+.p2 {display:none;
+width: 100%;}
+.p3 {display: none;
+width: 100%;}
+.p4 {display: none;
+width: 100%;}
+.img1_responsive {
+	display: none;
+width: 50%;
+float: none;
+padding-left: 80px;
+display: block;
+margin-right: 0;
+}
+
